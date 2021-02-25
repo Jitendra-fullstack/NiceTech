@@ -1,0 +1,22 @@
+
+article{
+ margin:$margin;
+ @include width(90%);
+ 
+}
+.article_img{
+    float:$pull-left;
+	@include width(22%);
+	@include  Margin(0px ,0px, 0px ,20px);
+}
+.article_img>a{
+     display:$display-block;
+}
+
+.article_img>a>img{
+       display:$display-block;
+	   @include width(100%);
+	   border:1px solid black;
+	   transition:0.5s;
+	   border-radius:2px;
+}

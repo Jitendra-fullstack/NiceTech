@@ -1,0 +1,18 @@
+
+
+@mixin Margin($top,$right,$bottom,$left){
+	
+	margin:$top $right $bottom $left;
+}
+
+@mixin Padding($top,$right,$bottom,$left){
+	
+	padding:$top $right $bottom $left;
+}
+
+@mixin  width($width){
+	width:$width;
+}
+@mixin size($font-size){
+   font-size:$font-size;
+}

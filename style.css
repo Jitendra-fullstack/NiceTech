@@ -1,0 +1,19 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+@media(max-width:767px){
+  nav>.nav_row>.nav>ul>li {
+    display: block;
+    padding-left: 48px;
+    background: yellow;
+    width: 60%;
+    margin: 5px auto;
+     }
+ .search{
+     position: relative;
+    top: -1px;
+    left: 20px;
+	 }
+}

@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto,sans-serif; }
+
+article {
+  margin: 0 auto;
+  width: 90%; }
+
+.article_img {
+  float: left;
+  width: 22%;
+  margin: 0px 0px 0px 20px; }
+
+.article_img > a {
+  display: block; }
+
+.article_img > a > img {
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+  transition: 0.5s;
+  border-radius: 2px; }
+
+.clearfix {
+  clear: both; }
+
+.fixed {
+  position: fixed;
+  top: 0;
+  background-color: red;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999; }
+
+header {
+  background-color: #002147; }
+  header .header_nav {
+    padding: 8px 0px 0px 0px;
+    width: 80%;
+    margin: 0 auto; }
+    header .header_nav .header_nav_icon {
+      float: left; }
+      header .header_nav .header_nav_icon ul {
+        list-style-type: none; }
+        header .header_nav .header_nav_icon ul li {
+          display: inline-block; }
+          header .header_nav .header_nav_icon ul li a {
+            color: white;
+            font-size: 12px;
+            padding: 0px 10px 0px 10px;
+            text-decoration: none; }
+  header i {
+    color: #fdc800; }
+  header .icon {
+    padding: 0px 10px 10px 0px; }
+
+.search {
+  float: right;
+  margin: 2px 0px 0px 0px; }
+  .search a {
+    color: #002147;
+    padding: 13px 10px 13px 10px;
+    background-color: #fdc800;
+    border: 2px solid #fdc800;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none; }
+    .search a:hover {
+      background-color: transparent;
+      color: white;
+      text-decoration: none; }
+
+.nicetech_img a img {
+  width: 140px;
+  height: 140px; }
+
+nav {
+  background-color: #f5deb30f; }
+  nav .nav_row {
+    width: 96%;
+    margin: 0 auto; }
+    nav .nav_row .nicetech_img {
+      float: left;
+      width: 12%; }
+    nav .nav_row .nav {
+      float: right;
+      padding: 45px 0px 0px 0px;
+      width: 85%; }
+      nav .nav_row .nav ul {
+        list-style-type: none; }
+        nav .nav_row .nav ul li {
+          display: inline-block; }
+          nav .nav_row .nav ul li a {
+            font-weight: 600;
+            padding: 0px 12px 10px 0px;
+            text-decoration: none;
+            color: #002147;
+            font-size: 16px; }
+            nav .nav_row .nav ul li a:hover {
+              color: #fdc800; }
+
+section .carousel-indicators .active {
+  background-color: #fdc800 !important; }
+section .carousel-control {
+  color: #fdc800 !important;
+  opacity: 1 !important; }
+section .carousel-control.left {
+  background-image: none !important; }
+section .carousel-control.right {
+  background-image: none !important; }
+
+.drop_04 > ul, .drop > .dropdown-content {
+  position: absolute;
+  background: #002147;
+  padding: 10px 20px;
+  top: 79px;
+  left: -70px;
+  right: -4px;
+  z-index: 006;
+  width: 184px;
+  display: none; }
+
+.show {
+  display: block !important; }
+
+.drop_04 > ul > li, .drop > ul > li {
+  display: block !important; }
+
+.drop_04 > ul > li > a, .drop > ul > li > a {
+  color: white !important;
+  display: block !important;
+  font-size: unset !important;
+  border-bottom: 1px solid white; }
+
+.drop, .drop_04 {
+  position: relative; }
+
+.down-caret {
+  position: relative;
+  left: -11px; }
+
+/*# sourceMappingURL=main.css.map */
